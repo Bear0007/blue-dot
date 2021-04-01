@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>BP中国</title>
+	<link rel="stylesheet" type="text/css" href="./css/style1.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/common.css"/>
+	<script>
+	    window.onload = window.onresize = function(){
+	        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+	        var _html = document.getElementsByTagName('html')[0];
+	        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+	    }
+	</script>
+</head>
+<body>
+	<div class="box">
+		<!-- 头部 -->
+		<div class="header"><p style="font-size:.7rem;"><span class="iconfont">&#xe639;</span>返回</p><p>BP中国</p><p class="iconfont">&#xe664;</p></div>
+		<!-- 内容 -->
+		<ul>
+			<li class="left-top"><div class="iconfont">&#xe68f;</div><p>BP能源望展</p></li>
+			<li class="right-top2" id="big"><p class="bp">Bp</p><div class="iconfont" >&#xe61e;</div><p class="xia">BP怎么说</p></li>
+			<li class="left-bottom"><p>BP统计年鉴</p><div class="iconfont">&#xe67a;</div></li>
+			<li class="right-bottom"><p>技术展望</p><div class="iconfont">&#xe601;</div></li>
+		</ul>
+		<!-- 菜单 -->
+		<div class="menu"><p class="iconfont">&#xe60f;</p></div>
+		<!-- 点击出现的元素 -->
+		<div class="box2" id="box2">
+			<div class="tiaozhuan">
+				<div id="close"><a href="javascript:;">&times;</a><span></span></div>
+					<div class="top">
+						<div class="left"><img src="./img/touxiang.png" alt=""></div>
+						<div class="right">
+							<p class="p1">戴德利（Bob Dodley）</p>
+							<p class="p2">Bp集团首席执行官</p>
+						</div>
+					</div>
+					<div class="bottom">
+						<span></span>
+						<p>'现在油价确实已经跌到一个很低的水平,石油行
+							业上一次感受到如此强力的低油价冲击还是在1987
+							年。目前市场正处于一个经典的供过于求的状态,
+							这也是全球范围内油气投资都在锐减的原因。我认
+							为油价会在比较长的时间内保持低位,但不会是永
+							远的低位。</p>
+						<p>“我认为石油变成‘夕阳’
+							行业至少是半个世纪以
+							后的事,毕竟在目前的能源结构中,化石燃料的整
+							体使用量仍维持在一个很高的水平。当今世界87%
+							的能源供应来自包括天然
+							气、石油和煤炭在内的化
+							石燃料,
+							我读到的分析报告也一致认为,未来20年
+							这个数字都将维持在80%左右。
+							''</p>
+						<p></p>
+					</div>
+				</div>
+		</div>
+	</div>
+	
+	<script src="./js/js1.js"></script>
+</body>
+</html>
